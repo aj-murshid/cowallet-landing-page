@@ -1,0 +1,10 @@
+.update-card {
+    width: 330px;
+    height: 220px;
+    border-radius: 40px;
+}
+
+.card-data {
+    width: 100%;
+    height: 100%;
+}

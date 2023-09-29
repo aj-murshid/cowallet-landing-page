@@ -1,0 +1,43 @@
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* position: relative; */
+}
+
+.image__wrapper--reverse {
+    display: flex;
+    position: relative;
+}
+
+.image__wrapper--reverse>div {
+    position: absolute;
+    top: -21px;
+    right: 140px;
+}
+
+/* .content {
+    width: 41%;
+}
+
+.content>p {
+    margin-top: 10px;
+    font-size: 11px;
+} */
+
+
+.image {
+    width: 243px;
+    height: 528px;
+    /* background: red; */
+    border-radius: 30px;
+}
+
+.image>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    /* padding: 5px; */
+    border: 10px solid white;
+}

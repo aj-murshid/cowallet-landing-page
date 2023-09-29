@@ -1,0 +1,9 @@
+{
+    "features": [
+        {
+            "title": "Add expenses",
+            "desc": "Specifically designed for government contractors, our app enables you to effortlessly manage government contracts from your mobile phone. Stay organized, access crucial information, and ensure compliance in one centralized platform.",
+            "img": "/public/images/addexpense.png"
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+.footer__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 75px;
+    border-top: 1px solid rgba(0, 0, 0, 0.169);
+}
+
+.footer-card {
+    display: flex;
+    align-items: center;
+}
+
+/* Define some basic styles for the footer */
+.footer {
+    margin-top: 75px;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0 0;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Style the footer content, links, and contact details */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-content h4 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #00bcd4;
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+}
+
+/* Style the contact details section */
+.footer-contact p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    background: #1f1f1f;
+    color: white;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links,
+    .footer-social,
+    .footer-contact {
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "features": [
+        {
+            "id": 1,
+            "data": "Project Management",
+            "img": "/public/images/project.png"
+        },
+        {
+            "id": 2,
+            "data": "Work Management",
+            "img": "/public/images/work.png"
+        },
+        {
+            "id": 3,
+            "data": "Office Management",
+            "img": "/public/images/office.png"
+        },
+        {
+            "id": 4,
+            "data": "Supervisor Management",
+            "img": "/public/images/supervisor.png"
+        },
+        {
+            "id": 5,
+            "data": "Works and Party Management",
+            "img": "/public/images/work&party.png"
+        }
+    ]
+}

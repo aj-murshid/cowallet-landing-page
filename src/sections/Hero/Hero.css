@@ -1,0 +1,99 @@
+.hero-section {
+    background: var(--gradient-primary);
+    padding: 0 200px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(233, 232, 232);
+    height: 90vh;
+}
+
+.leftside {
+    width: 100%;
+}
+
+.headings {
+    width: 385px;
+    padding: 15px 0;
+}
+
+.headings>h1,
+h2 {
+    letter-spacing: 1px;
+}
+
+.headings>h2 {
+    font-weight: 400;
+}
+
+.description {
+    width: 80%;
+    padding: 10px 0;
+}
+
+.description>p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 15px;
+    gap: 15px;
+}
+
+.buttons>button {
+    display: flex;
+    align-items: center;
+    background: #00000057;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    /* width: 160px; */
+    width: auto;
+    height: 50px;
+    gap: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.buttons>button>svg {
+    width: 20%;
+    padding-right: 5px;
+}
+
+.rightside {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.image1 {
+    width: 380px;
+    height: 320px;
+    border-radius: 30px;
+}
+
+.image2 {
+    position: absolute;
+    width: 200px;
+    height: 450px;
+    border-radius: 30px;
+    top: -70px;
+    left: 65%;
+}
+
+.image1>img,
+.image2>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}

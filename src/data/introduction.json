@@ -1,0 +1,20 @@
+{
+    "features": [
+        {
+            "text": "Manage all projects in one place",
+            "image": "/public/images/project management.png"
+        },
+        {
+            "text": "Add expenses and income",
+            "image": "/public/images/expense and income.png"
+        },
+        {
+            "text": "Know your workers and party Details",
+            "image": "/public/images/worker and party.png"
+        },
+        {
+            "text": "Get your reports in seconds",
+            "image": "/public/images/get reports.png"
+        }
+    ]
+}

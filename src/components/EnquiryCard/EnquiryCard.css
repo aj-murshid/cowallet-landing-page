@@ -1,0 +1,32 @@
+.enquiry {
+    width: 800px;
+    height: 175px;
+    border-radius: 24px;
+    margin: 50px 0;
+    background: var(--gradient-primary);
+    position: relative;
+}
+
+.enquiry-img {
+    width: 15%;
+    position: absolute;
+    top: -40px;
+    left: 50px;
+    /* transform: scaleX(-1); */
+}
+
+.text-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    padding: 50px 25px;
+    position: absolute;
+    left: 170px;
+    bottom: 15px;
+}
+
+.contact {
+    width: 200px;
+    padding: 10px 20px;
+}

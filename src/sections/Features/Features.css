@@ -1,0 +1,21 @@
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ecebeb;
+    padding: 75px 100px;
+}
+
+.feature-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    margin: 150px 0;
+}
+
+
+.enquiry-card {
+    margin-top: 50px;
+}

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* colors */
+:root {
+    --primary: #684CF6;
+    --gradient-primary: linear-gradient(168deg, #684CF6 3.77%, #6A36FF 96.34%);
+    --green-secondary: #39FFC4;
+
+}
+
+/* Defining CSS classes for global usage */
+.px-200 {
+    padding: 0 200px;
+}
+
+.capital {
+    text-transform: capitalize;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.w-300 {
+    font-weight: 300;
+}
+
+.w-400 {
+    font-weight: 400;
+}
+
+.w-500 {
+    font-weight: 500;
+}
+
+.w-600 {
+    font-weight: 600;
+}
+
+.w-700 {
+    font-weight: 700;
+}
+
+.c-white {
+    color: white;
+}
+
+.c-primary {
+    color: var(--primary);
+}
+
+.heading {
+    color: var(--primary);
+    font-size: 50px;
+}
+
+.cta-btn {
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background: var(--green-secondary);
+    color: var(--primary);
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.avatar>img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-column-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -1,0 +1,54 @@
+.card__wrapper {
+    width: 780px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background: #39ffc421;
+    border-radius: 30px;
+}
+
+.image-card {
+    width: 200px;
+    height: 200px;
+    background: var(--green-secondary);
+    border-radius: 25px;
+    position: relative;
+}
+
+.image-card > img {
+    width: 90%;
+    padding: 0 5px 5px;
+    position: absolute;
+    bottom: 20px;
+    transform: scaleX(-1);
+}
+
+.enquiries {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.enquiry-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.enquiry-buttons > button {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    height: 50px;
+    gap: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.enquiry-buttons > button > a {
+    text-decoration: none;
+    color: white;
+
+}

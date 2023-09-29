@@ -1,0 +1,13 @@
+.updates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.updates-card {
+    display: flex;
+    margin: 50px 0 50px;
+    gap: 20px;
+    height: 250px;
+}

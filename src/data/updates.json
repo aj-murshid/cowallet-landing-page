@@ -1,0 +1,28 @@
+{
+  "updates": [
+    {
+      "id": 1,
+      "img": "/public/images/project.png",
+      "date": "12 May 2023",
+      "title": "discover the power of our feature rich platform"
+    },
+    {
+      "id": 2,
+      "img": "/public/images/project.png",
+      "date": "16 May 2023",
+      "title": "Expense management for contractors & supervisors"
+    },
+    {
+      "id": 3,
+      "img": "/public/images/project.png",
+      "date": "19 Sep 2023",
+      "title": "Affordable Pricing for Seamless Contractor Management"
+    },
+    {
+      "id": 4,
+      "img": "/public/images/project.png",
+      "date": "19 Sep 2023",
+      "title": "Embrace the Future of Contractor Management"
+    }
+  ]
+}
