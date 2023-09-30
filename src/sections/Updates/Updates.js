@@ -1,8 +1,7 @@
 import React from "react";
 import "./Updates.css";
-import data from "../../../src/data/updates.json";
 import UpdatesCard from "../../components/Updates/UpdatesCard";
-import img1 from "/public/images/project.png";
+import { updates } from "../../data/updates";
 
 const Updates = () => {
   return (
@@ -11,9 +10,9 @@ const Updates = () => {
       <p className="capital">Get latest news and updates</p>
 
       <div className="updates-card">
-        {data.updates.map((update) => (
+        {updates.map((update) => (
           <UpdatesCard
-            img={img1}
+            img={update.img}
             date={update.date}
             title={update.title}
           />

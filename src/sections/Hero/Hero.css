@@ -54,12 +54,12 @@ h2 {
     padding: 10px;
     border-radius: 10px;
     border: none;
-    /* width: 160px; */
     width: auto;
     height: 50px;
     gap: 10px;
     color: white;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .buttons>button>svg {
