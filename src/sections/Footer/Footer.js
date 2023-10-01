@@ -66,6 +66,10 @@ const Footer = () => {
                 <i class="fa-solid fa-envelope fa-sm"></i>{" "}
                 ajfuturedevelopment@gmail.com
               </p>
+              <p>
+              <i class="fa-solid fa-globe fa-sm"></i>{" "}
+                ajfuture.in
+              </p>
             </div>
             <div className="footer-contact">
               <h4>Office address</h4>
@@ -77,7 +81,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="copyright">
-          <p>&copy; 2023 <a href="https://ajfuture.in/">AJ Future Development LLP</a>  All rights reserved.</p>
+          <p>&copy; 2023 <a href="https://ajfuture.in/">aj future development llp</a>  All rights reserved.</p>
         </div>
       </footer>
     </div>

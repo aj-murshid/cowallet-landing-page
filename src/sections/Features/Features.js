@@ -44,11 +44,11 @@ const Features = () => {
 
         heading2: "manage projects",
         image2: ManageProjectImg,
-        content2: `Specifically designed for government contractors, our app enables you to effortlessly manage government contracts fromyour mobile phone. Stay organized, access crucial information,`,
+        content2: `Say goodbye to messy spreadsheets and hello to organized project management. Our software lets you keep track of deadlines, budgets, and tasks all in one place.`,
 
         heading3: "Get Reports",
         image3: GetReportImg,
-        content3: `Specifically designed for government contractors, our app enables you to effortlessly manage government contracts from your mobile phone. Stay organized, access crucial information, and ensure compliance in one centralized platform.`,
+        content3: `Make informed decisions with Contractor Wallet’s reports. Get insights into your team’s productivity and performance, and export reports for your clients or stakeholders.`,
     };
 
     return (
