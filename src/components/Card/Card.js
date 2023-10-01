@@ -5,8 +5,10 @@ const Card = ({ img, text }) => {
   return (
     <div className="card">
       <div className="card-container">
-        <img src={img} alt="feature-image" />
-        <p>{text}</p>
+        <div className="image-container">
+          <img className="card-image" src={img} alt="feature-image" />
+        </div>
+        <p style={{ textAlign: "center" }}>{text}</p>
       </div>
     </div>
   );

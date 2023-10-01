@@ -91,6 +91,10 @@
     color: white;
 }
 
+.copyright a {
+    color: white;
+}
+
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
     .footer-content {
