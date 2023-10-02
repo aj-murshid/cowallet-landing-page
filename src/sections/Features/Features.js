@@ -5,7 +5,7 @@ import "./Features.css";
 import ExpenseImg from "/public/images/addexpense.png";
 import ManageProjectImg from "/public/images/manageproject.png";
 import GetReportImg from "/public/images/getreport.png";
-import EnquiryCard from "../../components/EnquiryCard/EnquiryCard";
+import ContactCard from "../../components/ContactCard/ContactCard";
 
 const Features = () => {
     const contentObj = {
@@ -54,7 +54,7 @@ const Features = () => {
     return (
         <div className="features">
             <h1 className="heading capital">our features</h1>
-            <p className="capital">discover the power of feature-rich platform</p>
+            <p className="sub-heading capital">discover the power of feature-rich platform</p>
             <div className="feature-cards">
                 <Feature
                     svg={contentObj.svg1}
@@ -76,7 +76,7 @@ const Features = () => {
                 />
             </div>
             <div className="enquiry-card">
-                <EnquiryCard />
+                <ContactCard />
             </div>
         </div>
     );

@@ -8,7 +8,7 @@
     justify-content: space-between;
     align-items: center;
     color: rgb(233, 232, 232);
-    height: 90vh;
+    height: 40rem;
 }
 
 .leftside {
@@ -30,13 +30,14 @@ h2 {
 }
 
 .description {
-    width: 80%;
-    padding: 10px 0;
+    width: 90%;
+    height: 4rem;
+    padding: 0.5rem 0;
 }
 
-.description>p {
-    font-weight: 300;
-    font-size: 14px;
+.description p {
+    font-weight: 400;
+    font-size: 1rem;
     line-height: 24px;
     text-transform: capitalize;
 }

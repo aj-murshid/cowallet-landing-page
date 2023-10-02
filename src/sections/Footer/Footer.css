@@ -85,6 +85,11 @@
     margin-right: 5px;
 }
 
+.footer-contact p a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .copyright {
     display: flex;
     align-items: center;

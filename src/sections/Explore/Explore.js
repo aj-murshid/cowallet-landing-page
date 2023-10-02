@@ -8,7 +8,7 @@ const Explore = () => {
   return (
     <div className="explore">
       <h1 className="heading capital">explore more features</h1>
-      <p className="capital">discover the power of our feature-rich platform</p>
+      <p className="sub-heading capital">discover the power of our feature-rich platform</p>
 
       <div className="features-card">
         {moreFeatures.map((feature) => (

@@ -1,12 +1,12 @@
 import React from "react";
 import "./Footer.css";
-import FooterCard from "../../components/FooterCard/FooterCard";
+import EnquiryCard from "../../components/EnquiryCard/EnquiryCard";
 
 const Footer = () => {
   return (
     <div className="footer__wrapper">
       <div className="footer-card">
-        <FooterCard />
+        <EnquiryCard />
       </div>
 
       <footer className="footer">
@@ -54,14 +54,18 @@ const Footer = () => {
             <div className="footer-contact">
               <h4>Contact Info</h4>
               <p>
-                <i class="fa-solid fa-phone icon"></i> +91 79077 07474
+                <i class="fa-solid fa-phone icon"></i>{" "}
+                <a href="tel:+917907707474">+91 79077 07474</a>
               </p>
               <p>
                 <i class="fa-solid fa-envelope icon"></i>{" "}
-                ajfuturedevelopment@gmail.com
+                <a href="mailto:ajfuturedevelopment@gmail.com">
+                  ajfuturedevelopment@gmail.com
+                </a>
               </p>
               <p>
-                <i class="fa-solid fa-globe icon"></i> ajfuture.in
+                <i class="fa-solid fa-globe icon"></i>{" "}
+                <a href="https://ajfuture.in/" target="_blank" rel="noreferrer noopener">ajfuture.in</a>
               </p>
             </div>
             <div className="footer-contact">

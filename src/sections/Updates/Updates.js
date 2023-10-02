@@ -7,7 +7,7 @@ const Updates = () => {
   return (
     <div className="updates">
       <h1 className="heading capital">Latest updates</h1>
-      <p className="capital">Get latest news and updates</p>
+      <p className="sub-heading capital">Get latest news and updates</p>
 
       <div className="updates-card">
         {updates.map((update) => (
