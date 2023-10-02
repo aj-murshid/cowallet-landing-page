@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
 }
 
 /* colors */
@@ -17,7 +17,19 @@ body {
 
 }
 
-/* Defining CSS classes for global usage */
+/* Utility Classes */
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+button {
+    font-family: "poppins";
+}
+
 .px-200 {
     padding: 0 200px;
 }
@@ -120,4 +132,26 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+@media (min-width: 1024px) {
+    /* .navbar {
+        width: 100%;
+    } */
+
+    /* .main {
+        width: 50%;
+    } */
+
+    /* .hero-section .leftside {
+        width: 80%;
+    } */
+
+    /* .hero-section .rightside {
+        width: 100%;
+    } */
+
+    /* .image2 {
+        left: 11.5rem;
+    } */
 }

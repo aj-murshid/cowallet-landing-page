@@ -50,11 +50,11 @@ h2 {
 .buttons>button {
     display: flex;
     align-items: center;
-    background: #00000057;
-    padding: 10px;
-    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.34);
+    padding: 10px 25px;
+    border-radius: 0.5rem;
     border: none;
-    width: auto;
+    /* width: auto; */
     height: 50px;
     gap: 10px;
     color: white;
@@ -88,6 +88,7 @@ h2 {
     border-radius: 30px;
     top: -70px;
     left: 65%;
+    box-shadow: -4px -12px 84px 0px rgba(0, 0, 0, 0.37);
 }
 
 .image1>img,

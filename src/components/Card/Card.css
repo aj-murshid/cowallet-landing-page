@@ -37,11 +37,11 @@
     border-radius: 20px;
 }
 
-.card-container>p {
+.card-container p {
     position: absolute;
-    top: 120px;
-    width: 60%;
-    padding: 20px;
-    font-size: 12px;
+    top: 114px;
+    /* width: 60%; */
+    padding: 1.37rem;
+    font-size: 0.9rem;
     font-weight: 500;
 }

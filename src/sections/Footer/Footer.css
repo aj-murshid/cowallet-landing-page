@@ -22,7 +22,7 @@
     font-size: 16px;
 }
 
-.container {
+.footer-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
@@ -77,8 +77,12 @@
 
 /* Style the contact details section */
 .footer-contact p {
-    margin: 0;
+    margin-bottom: 10px;
     line-height: 1.5;
+}
+
+.footer-contact p i {
+    margin-right: 5px;
 }
 
 .copyright {

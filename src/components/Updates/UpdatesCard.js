@@ -6,7 +6,7 @@ const UpdatesCard = ({ img, date, title }) => {
   return (
     <>
       <div className="update-card">
-        <div className="card-data">
+        <div className="carddata">
           <img
             src={img}
             alt="update-image"

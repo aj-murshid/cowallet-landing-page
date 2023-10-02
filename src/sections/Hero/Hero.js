@@ -51,8 +51,6 @@ const Hero = () => {
   };
   return (
     <div className="hero-section">
-      <Navbar />
-
       <div class="main">
         <div class="leftside">
           <div class="headings capital">
@@ -67,6 +65,14 @@ const Hero = () => {
             <div class="buttons">
               <button className="btn cta-btn upper">
                 get started for free <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+            <div class="buttons">
+              <button className="btn cta-btn upper">
+                <i class="fa-brands fa-google-play fa-xl"></i> Google Play
+              </button>
+              <button className="btn cta-btn upper">
+                <i class="fa-brands fa-apple fa-xl"></i> App Store
               </button>
             </div>
           </div>
